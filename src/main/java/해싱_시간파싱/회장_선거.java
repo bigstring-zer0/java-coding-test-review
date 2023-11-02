@@ -4,7 +4,7 @@ import java.util.*;
 
 public class 회장_선거 {
     public String solution(String[] votes, int k) {
-        String answer = "";
+        String answer;
         // 추천인, 추천인이 추천한 사람들을 순서로 키와 값을 가지는 hashmap 초기화.
         HashMap<String, Set<String>> voteHash = new HashMap<>();
         // 어떤 사람이 몇번 회장 후보로 추천 받앗는지를 계산하기 위한 hashmap 초기화.
