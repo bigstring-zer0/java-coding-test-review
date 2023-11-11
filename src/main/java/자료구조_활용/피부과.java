@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class 피부과 {
+    // 입력값 enter에서 문자열로 저장되어있는 시각을 00:00을 0이라고 정하고 HH:MM 를 HH * 60 + MM 으로 계산하여 입력받은 문자열 값을 정수형으로 변환한다.
     public int transferTime(String s) {
         return Integer.parseInt(s.split(":")[0]) * 60 + Integer.parseInt(s.split(":")[1]);
     }
